@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat w/ KokoaClone</title>
+</head>
+
+<body id="chat-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>02:01</span>
+        </div>
+        <div class="status-bar__column">
+            <span>200%</span>
+            <i class="fas fa-battery-three-quarters fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chats.html">
+                <i class="fas fa-angle-left fa-2x"></i>
+            </a>
+        </div>
+
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">KokoaClone</h1>
+        </div>
+
+        <div class="alt-header__column">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-bars fa-lg"></i></span>
+        </div>
+    </header>
+
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Tuesday, June 30, 2020
+        </div>
+
+        <div class="message-row">
+            <img src="https://cdn.worldvectorlogo.com/logos/kakaotalk.svg" />
+            <div class="message-row__content">
+                <span class="message__author">KokoaClone</span>
+                <div class="message__info">
+                    <span class="message__bubble">Please check My Kokoa Account Info</span>
+                    <span class="message__time">21:27</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">yes</span>
+                    <span class="message__time">21:27</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="far fa-plus-square fa-xl"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="wirte a message... " />
+            <i class="far fa-smile fa-xl"></i>
+            <button>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
+
+    <div id="no-mobile">
+        <span>Your screen is too big :(</span>
+    </div>
+
+    <script src=" https://kit.fontawesome.com/05d262244f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
