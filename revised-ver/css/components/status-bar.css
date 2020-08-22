@@ -1,0 +1,50 @@
+.status-bar {
+  /* height: 20px; */
+  width: 100vw;
+  display: flex;
+  position: fixed;
+  box-sizing: border-box;
+  padding: 0px 5px;
+}
+
+.status-bar__column {
+  width: 33.33%;
+  align-items: center;
+}
+
+.status-bar__column:first-child {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.status-bar__column:nth-child(2)
+{
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.status-bar__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.status-bar__column i {
+  height: 15px;
+  margin-left: 3px;
+}
+
+.iconify { 
+  width: 13px;
+  height: 13px;
+}
+
+.iconify[data-icon="bi:battery-full"] { 
+  width: 24px;
+  height: 24px;
+  margin-left: 5px;
+}
+
+.iconify[data-icon="mdi:lock-reset"] { 
+  margin-right: 8px;
+}

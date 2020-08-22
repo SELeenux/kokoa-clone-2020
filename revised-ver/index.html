@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to KokoaClone</title>
+</head>
+
+<body>
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>No Service</span>
+      <i class="fas fa-wifi"></i>
+    </div>
+    <div class="status-bar__column">
+      <span>20:51</span>
+    </div>
+    <div class="status-bar__column">
+      <span class="iconify" data-icon="mdi:lock-reset" data-inline="false"></span>
+      <span>200%</span>
+      <span class="iconify" data-icon="bi:battery-full" data-inline="false"></span>
+      <span class="iconify" data-icon="mdi:lightning-bolt" data-inline="false"></span>
+    </div>
+  </div>
+
+  <header class="welcome-header">
+    <h1>Welcome to KokoaClone</h1>
+    <span>If you have a Kokoa Account,<br>log in with your email or phone number.</span>
+  </header>
+
+  <form action="friends.html" method="get" class="login-form">
+    <input name="email" placeholder="Email or phone number" type="text" />
+    <input name="password" placeholder="Password" type="password" />
+    <div class="login-form__btn-login">
+      <div class="btn-wrap"></div>
+      <input type="submit" value="Log In" />
+    </div>
+    <input class="login-form__btn-submit" type="submit" value="Sign Up" />
+    <a href="#">Find Kokoa Account or Password</a>
+  </form>
+
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  <script src="https://kit.fontawesome.com/05d262244f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
