@@ -58,6 +58,10 @@
   background-color: #e4e3e3;
 }
 
+.login-form  input[type="submit"]:hover {
+  cursor:pointer;
+}
+
 .login-form__btn-login {
   position: relative;
   overflow: hidden;
