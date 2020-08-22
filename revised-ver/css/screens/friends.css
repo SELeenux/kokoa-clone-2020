@@ -1,0 +1,16 @@
+.friends-screen {
+  margin-top: 4px;
+}
+
+.friends-screen__group-title {
+  font-size: 10px;
+  color: var(--gray);
+  padding-top: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-chevron-right {
+  color: #D1D1D1;
+}

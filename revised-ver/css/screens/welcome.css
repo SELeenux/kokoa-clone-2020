@@ -12,7 +12,7 @@
 .welcome-header span {
   font-size: 16px;
   line-height: 1.3;
-  color: #7F7F7F;
+  color: var(--darkgray);
 }
 
 .login-form {
@@ -39,7 +39,7 @@
 
 .login-form input::placeholder {
   font-size:18px;
-  color: #9E9E9E;
+  color: var(--gray);
 }
 
 .login-form input:not([type="submit"]):focus {

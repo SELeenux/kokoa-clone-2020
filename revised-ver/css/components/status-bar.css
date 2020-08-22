@@ -9,7 +9,7 @@
 
 .status-bar__column {
   width: 33.33%;
-  align-items: center;
+  align-items: center;.status-bar
 }
 
 .status-bar__column:first-child {
@@ -34,17 +34,17 @@
   margin-left: 3px;
 }
 
-.iconify { 
+.status-bar .iconify { 
   width: 13px;
   height: 13px;
 }
 
-.iconify[data-icon="bi:battery-full"] { 
+.status-bar .iconify[data-icon="bi:battery-full"] { 
   width: 24px;
   height: 24px;
   margin-left: 5px;
 }
 
-.iconify[data-icon="mdi:lock-reset"] { 
+.status-bar .iconify[data-icon="mdi:lock-reset"] { 
   margin-right: 8px;
 }

@@ -1,0 +1,17 @@
+.screen-header {
+  padding: 60px var(--horizontal-space);
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.screen-header h1{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.screen-header .iconify {
+  height: 20px;
+  width: 20px;
+  margin-left: 13px;
+}

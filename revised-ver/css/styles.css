@@ -5,11 +5,19 @@
 
 /* components */
 @import "components/status-bar.css";
+@import "components/screen-header.css";
+@import "components/nav-bar.css";
+@import "components/user-component.css";
 
 /* screens */
 @import "screens/welcome.css";
+@import "screens/friends.css";
 
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
 }

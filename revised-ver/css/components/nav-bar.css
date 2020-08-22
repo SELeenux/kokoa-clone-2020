@@ -1,0 +1,19 @@
+.nav-bar {
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+  padding: 15px 30px;
+  background-color: #F9F9FA;
+  box-shadow: 0px 10px 10px 10px #E0E0E1;
+  box-sizing: border-box;
+}
+
+.nav-bar__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar .iconify {
+  font-size: 20px;
+}

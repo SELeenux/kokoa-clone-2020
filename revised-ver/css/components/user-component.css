@@ -1,0 +1,75 @@
+.user-component {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.user-component__img {
+  height: 38px;
+  width: 38px;
+  border-radius: 40%;
+}
+
+.user-component__img--xl {
+  height: 55px;
+  width: 55px;
+}
+
+.user-component__column {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__text {
+  margin-left: 10px;
+}
+
+.user-component__title {
+  font-size: 16px;
+}
+
+.user-component--me .user-component__title {
+  font-weight: 700;
+}
+
+.user-component__subtitle {
+  margin-top: 10%;
+  font-size: 10px;
+  color: var(--gray);
+}
+
+.user-component__status {
+  font-size: 11px;
+  color: var(--gray);
+}
+
+.user-component__status--melon {
+  padding: 5px 8px;
+  border: 1.5px solid #8DE6A1;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  color: var(--darkgray);
+}
+
+.user-component__status--melon .iconify{
+  color: #8DE6A1;
+  margin-left: 2px;
+}
+
+.user-component__status--gift {
+  padding: 5px 8px;
+  border: 1.5px solid #FAB5BA;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  color: var(--darkgray);
+}
+
+.iconify[data-icon="fa:birthday-cake"], 
+.user-component__status--gift .iconify {
+  margin-left: 3px;
+  color: #FB6756;
+  font-size: 13px;
+}
