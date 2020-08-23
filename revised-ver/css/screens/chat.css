@@ -2,6 +2,10 @@
   background-image: url("https://user-images.githubusercontent.com/43295067/90986455-e3b39c00-e5bd-11ea-97dd-ee5e92c022f7.png");
 }
 
+#chat-screen .alt-header {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
 .main-chat {
   margin-top: 85px;
   display: flex;
@@ -107,11 +111,12 @@
 .chat-input .iconify[data-icon="ic:round-insert-emoticon"] { 
   position: absolute;
   right: 60px;
-  top: 10px;
+  top: 12px;
 }
 
 .chat-input .iconify:last-child {
   position: absolute;
   right: 30px;
-  top: 10px;
+  top: 14px;
+  font-size: 20px;
 }

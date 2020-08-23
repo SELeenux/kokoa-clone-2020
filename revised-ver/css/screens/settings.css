@@ -1,0 +1,37 @@
+.main-settings {
+  margin-top: 80px;
+}
+
+.setting-list__group {
+  margin-top: 16px;
+}
+
+.setting-list {
+  padding: 15px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: --var(--thin--border);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.setting-list__column {
+  display: flex;
+  align-items: center;
+}
+
+.setting-list:last-child {
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgb(224, 224, 224, 0.7);
+}
+
+.setting-list .iconify {
+  margin-right: 12px;
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+.setting-list__column:nth-child(2) {
+  color: var(--gray);
+}
