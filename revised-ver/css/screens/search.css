@@ -8,7 +8,7 @@
   font-weight: 600;
   color: #B4B4B4;
   overflow: hidden;
-  border-bottom: 1.5px solid #f5f5f5;
+  border-bottom: var(--bold-border);
 }
 
 .search-header__column {
@@ -65,7 +65,7 @@
   width: 100vw;
   position: absolute;
   left: -10px;
-  border-bottom: 10px solid #EFEFEF;
+  border-bottom: var(--bold-border);
 }
 
 .news-banner__icon {

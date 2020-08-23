@@ -3,4 +3,6 @@
   --gray: #9E9E9E;
   --darkgray: #7F7F7F;
   --horizontal-space: 16px;
+  --bold-border: 10px solid #EFEFEF;
+  --thin-border: 1px solid #EFEFEF;
 }
