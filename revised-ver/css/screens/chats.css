@@ -1,0 +1,10 @@
+.chats-screen__banner {
+  height: 65px;
+  width: 320px;
+  margin-bottom: 15px;
+}
+
+.chats-screen__banner img {
+  height: 65px;
+  border-radius: 5px;
+}

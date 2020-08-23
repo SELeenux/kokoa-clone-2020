@@ -17,3 +17,13 @@
 .nav-bar .iconify {
   font-size: 20px;
 }
+
+.nav-bar .iconify[data-icon="bi:person"] {
+  padding-top: 2px;
+  font-size: 25px;
+}
+
+.nav-bar .iconify[data-icon="bi:person-fill"] {
+  padding-top: 2px;
+  font-size: 25px;
+}
