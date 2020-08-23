@@ -53,6 +53,7 @@
 .user-component__status {
   font-size: 11px;
   color: var(--gray);
+  display: flex;
 }
 
 .user-component__status--melon {
@@ -89,4 +90,20 @@
   font-size: 10px;
   margin-bottom: 5px;
   color: var(--gray);
+}
+
+.user-component__btn {
+  border: var(--thin-border);
+  border-radius: 20px;
+  padding: 5px 13px;
+  margin-left: 5px;
+  font-size: 14px;
+  color: black;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.user-component__btn .iconify {
+  margin-right: 5px;
 }

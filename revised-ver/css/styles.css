@@ -16,6 +16,7 @@
 @import "screens/chats.css";
 @import "screens/search.css";
 @import "screens/gamestar.css";
+@import "screens/more.css";
 
 body {
   font-family: 'Open Sans', sans-serif;
