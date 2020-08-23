@@ -1,10 +1,38 @@
-.chats-screen__banner {
+.chats-ad {
   height: 65px;
-  width: 320px;
+  width: 100%;
   margin-bottom: 15px;
+  position: relative;
+  border-radius: 5px;
+  background-color: #282C35;
+  overflow:hidden;
+  color: white;
+  font-size: 13px;
 }
 
-.chats-screen__banner img {
-  height: 65px;
+.chats-ad img {
+  position: absolute;
+  bottom: -30px;
+  left: -25px;
+  width: 50%;
   border-radius: 5px;
+  opacity: .7;
+}
+
+.chats-ad__title {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  opacity: 0.9;
+}
+
+.chats-ad__mark {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  padding: 5px 8px;
+  border: 1px solid rgba(255, 255, 255, .5);
+  background-color: rgba(19, 19, 19, .3);
+  border-radius: 10px;
+  font-size: 5px;
 }
