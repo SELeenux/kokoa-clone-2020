@@ -9,3 +9,10 @@
   justify-content: center;
   align-items: center;
 }
+
+.badge__notice {
+  height: 4px;
+  width: 4px;
+  background-color: #FF6128;
+  border-radius: 50%;
+}

@@ -27,3 +27,19 @@
   padding-top: 2px;
   font-size: 25px;
 }
+
+.nav-bar__btn a {
+  position: relative;
+}
+
+.nav-bar .badge__notification {
+  position: absolute;
+  bottom: 12px;
+  left: 13px;
+}
+
+.nav-bar .badge__notice {
+  position: absolute;
+  bottom: 20px;
+  left: 18px;
+}
