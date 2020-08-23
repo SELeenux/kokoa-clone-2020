@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search - KokaClone</title>
+</head>
+
+<body>
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>No Service</span>
+      <i class="fas fa-wifi"></i>
+    </div>
+    <div class="status-bar__column">
+      <span>20:51</span>
+    </div>
+    <div class="status-bar__column">
+      <span class="iconify" data-icon="mdi:lock-reset" data-inline="false"></span>
+      <span>200%</span>
+      <span class="iconify" data-icon="bi:battery-full" data-inline="false"></span>
+      <span class="iconify" data-icon="mdi:lightning-bolt" data-inline="false"></span>
+    </div>
+  </div>
+
+  <div class="search-header">
+    <div class="search-header__column">
+      <div class="search-header__btn">
+        <h1>코로나19</h1>
+      </div>
+      <div class="search-header__btn">
+        <h1>뉴스</h1>
+        <span class="iconify" data-icon="clarity:hashtag-solid" data-inline="false"></span>
+      </div>
+      <div class="search-header__btn">
+        <h1>뮤직</h1>
+      </div>
+      <div class="search-header__btn">
+        <h1>쇼핑</h1>
+      </div>
+      <div class="search-header__btn">
+        <h1>FUN</h1>
+      </div>
+    </div>
+    <span class="iconify" data-icon="bi:arrow-left-right" data-inline="false"></span>
+    <p></p>
+  </div>
+
+  <div class="main-screen search-screen">
+    <div class="news-banner">
+      <div class="news-banner__column">
+        <h3>최근 2주간 깜깜이 확진자 400명 돌파.. 전...</h3>
+        <div class="new-banner__link">
+          <h4>실시간 뉴스<i class="fas fa-chevron-right"></i></h4>
+          <h4>거리두기 2단계<i class="fas fa-chevron-right"></i></h4>
+          <h4>확진자 현황<i class="fas fa-chevron-right"></i></h4>
+        </div>
+      </div>
+      <div class="news-banner__column">
+        <div class="news-banner__icon"><span class="iconify" data-icon="emojione:hospital" data-inline="false"></span>
+        </div>
+      </div>
+    </div>
+
+    <p></p>
+
+    <div class="news-list">
+      <h3>英 권위자 “코로나, 영원히 지속…통제불능 상황 올수도”</h3>
+      <h3>태풍 바비, 27일 서해상 통과…오른편 한반도 타격 클듯</h3>
+      <h3>돌연 사임 밝힌 WTO 사무총장, 펩시콜라로 간다</h3>
+      <h3>중국, 지난달부터 코로나19 백신 긴급사용</h3>
+      <h3>서울시, 오늘 자정부터 마스크 착용 의무화…광복절 집회 관련 ‘익명검사’ 도입</h3>
+      <div class="news-list__photo">
+        <div class="news-list__column">
+          <img
+            src="https://images.unsplash.com/photo-1586942593822-268ff3828458?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" />
+          <h5>중국, 이미 지난달부터 코로나19 백신 긴급사용</h5>
+        </div>
+        <div class="news-list__column">
+          <img
+            src="https://images.unsplash.com/photo-1584483766114-2cea6facdf57?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" />
+          <h5>서울시 "광화문집회 관련 1천299명 전화 안받고 검사 거부"</h5>
+        </div>
+      </div>
+    </div>
+
+    <p></p>
+
+    <div class="search-bar__container">
+      <div class="search-bar">
+        <input type="text" placeholder="검색어를 입력해주세요" />
+        <img
+          src="https://user-images.githubusercontent.com/43295067/90976760-a4b02700-e57a-11ea-841a-78d4ba3d81d4.png" />
+        <span class="iconify" data-icon="clarity:hashtag-solid" data-inline="false"></span>
+        <span class="iconify" data-icon="ant-design:search-outlined" data-inline="false"></span>
+      </div>
+      <div class="search-bar__tags">
+        <div class="search-bar__tag search-bar__tag--emphasis">#집에 머물러 주세요</div>
+        <div class="search-bar__tag">#KBS 공식입장</div>
+        <div class="search-bar__tag">#회나피아 해체</div>
+      </div>
+      <div class="search-bar__tags">
+        <div class="search-bar__tag">#8호 태풍</div>
+        <div class="search-bar__tag">#불후의 명곡 김종국</div>
+        <div class="search-bar__tag">#두산베어스 사과</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="nav-bar">
+    <ul class="nav-bar__list">
+      <li class="nav-bar__btn"><a href="friends.html" class="nav-bar__link">
+          <span class="iconify" data-icon="bi:person" data-inline="false"></span></a></li>
+      <li class="nav-bar__btn"><a href="chats.html" class="nav-bar__link">
+          <span class="iconify" data-icon="bi:chat" data-inline="false"></span>
+          <div class="badge__notification">1</div>
+        </a></li>
+      <li class="nav-bar__btn"><a href="search.html" class="nav-bar__link">
+          <span class="iconify" data-icon="clarity:hashtag-solid" data-inline="false"></span></a></li>
+      <li class="nav-bar__btn"><a href="gamestar.html" class="nav-bar__link">
+          <span class="iconify" data-icon="clarity:star-line" data-inline="false"></span></a></li>
+      <li class="nav-bar__btn"><a href="more.html" class="nav-bar__link">
+          <span class="iconify" data-icon="bytesize:ellipsis-horizontal" data-inline="false"></span>
+          <div class="badge__notice"></div>
+        </a></li>
+    </ul>
+  </div>
+
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  <script src="https://kit.fontawesome.com/05d262244f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
