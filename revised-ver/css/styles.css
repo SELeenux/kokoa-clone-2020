@@ -9,6 +9,7 @@
 @import "components/nav-bar.css";
 @import "components/user-component.css";
 @import "components/badge.css";
+@import "components/alt-header.css";
 
 /* screens */
 @import "screens/welcome.css";
@@ -17,6 +18,7 @@
 @import "screens/search.css";
 @import "screens/gamestar.css";
 @import "screens/more.css";
+@import "screens/chat.css";
 
 body {
   font-family: 'Open Sans', sans-serif;

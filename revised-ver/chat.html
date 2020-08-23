@@ -1,0 +1,82 @@
+!
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chats w/ Friend</title>
+</head>
+
+<body id="chat-screen">
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>No Service</span>
+      <i class="fas fa-wifi"></i>
+    </div>
+    <div class="status-bar__column">
+      <span>20:51</span>
+    </div>
+    <div class="status-bar__column">
+      <span class="iconify" data-icon="mdi:lock-reset" data-inline="false"></span>
+      <span>200%</span>
+      <span class="iconify" data-icon="bi:battery-full" data-inline="false"></span>
+      <span class="iconify" data-icon="mdi:lightning-bolt" data-inline="false"></span>
+    </div>
+  </div>
+
+  <div class="alt-header">
+    <div class="alt-header__column">
+      <span class="iconify" data-icon="entypo:chevron-thin-left" data-inline="false"></span>
+      <span>12</span>
+    </div>
+    <div class="alt-header__column">
+      <span>Friend</span>
+    </div>
+    <div class="alt-header__column">
+      <span class="iconify" data-icon="ant-design:search-outlined" data-inline="false"></span>
+      <span class="iconify" data-icon="octicon:three-bars-16" data-inline="false"></span>
+    </div>
+  </div>
+
+  <div class="main-screen main-chat">
+    <span class="chat__timestamp">Saturday, August 22, 2020</span>
+
+    <div class="msg-row">
+      <img src="https://cdn.worldvectorlogo.com/logos/kakaotalk.svg" />
+      <div class="msg-row__payload">
+        <div class="msg__sender">Friend</div>
+        <div class="msg__content">
+          <div class="msg__body">Please check My Kokoa Account Info</div>
+          <div class="msg__time">12:34</div>
+        </div>
+        <div class="msg__content">
+          <div class="msg__body msg__body--continuous">Please check My Kokoa Account Info</div>
+          <div class="msg__time">12:34</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="msg-row msg-row--own">
+      <div class="msg-row__payload">
+        <div class="msg__content">
+          <div class="msg__time">12:34</div>
+          <div class="msg__body">hello</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="chat-input">
+    <span class="iconify" data-icon="jam:plus-rectangle" data-inline="false"></span>
+    <input type="text" placeholder="write a message..." />
+    <span class="iconify" data-icon="ic:round-insert-emoticon" data-inline="false"></span>
+    <span class="iconify" data-icon="clarity:hashtag-line" data-inline="false"></span>
+  </div>
+
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  <script src="https://kit.fontawesome.com/05d262244f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
