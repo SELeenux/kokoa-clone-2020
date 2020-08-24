@@ -49,8 +49,37 @@
   color: var(--darkgray);
 }
 
+@keyframes FadeInFromLeft {
+  from {
+    transform: translateX(-30px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
 .msg__content {
   display: flex;
+  animation: FadeInFromLeft 1s ease-in-out;
+}
+
+@keyframes FadeInFromRight {
+  from {
+    transform: translateX(30px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.msg-row--own .msg__content {
+  opacity: 0;
+  animation: FadeInFromRight 1s ease-in-out forwards;
+  animation-delay: .5s;
 }
 
 .msg__body {
