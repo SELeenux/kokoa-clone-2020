@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
   margin-bottom: 15px;
 }
 
@@ -15,6 +16,7 @@
 .user-component__img--lg {
   height: 45px;
   width: 45px;
+  margin: 5px 0px;
 }
 
 .user-component__img--xl {
@@ -27,7 +29,7 @@
   align-items: center;
 }
 
-.user-component__column:last-child {
+.user-component__column:nth-child(2) {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -107,4 +109,62 @@
 
 .user-component__btn .iconify {
   margin-right: 5px;
+}
+
+.user-component--friend:hover {
+  cursor: pointer;
+  transform: translateX(-160px);
+}
+
+.user-component--friend {
+  transition: transform 1s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+
+.user-component__slide {
+  width: 160px;
+  position: absolute;
+  display: flex;
+  right: -200px;
+  background-color: #FF6128;
+}
+
+.user-component__slide div {
+  height: 50px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.user-component__slide div:first-child {
+  background-color: #70767F;
+}
+
+.user-component--chat:hover {
+  cursor: pointer;
+  transform: translateX(260px);
+}
+
+.user-component--chat {
+  transition: transform 1s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+
+.user-component__slide-chat div {
+  height: 70px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-component__slide-chat {
+  width: 240px;
+  position: absolute;
+  left: -300px;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #89BCF1;
+  color: white;
+  font-size: 18px;
 }

@@ -40,7 +40,6 @@
   bottom: 0px;
   left: 115px;
   z-index: 2;
-  transition: transform;
 }
 
 .search-header__btn:nth-child(2) h1 {
