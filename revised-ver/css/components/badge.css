@@ -1,6 +1,7 @@
 .badge__notification {
   height: 18px;
   width: 18px;
+  padding: 1px 1.5px;
   background-color: #FF6128;
   font-size: 11px;
   color: white;

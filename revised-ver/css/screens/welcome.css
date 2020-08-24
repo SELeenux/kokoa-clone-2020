@@ -58,7 +58,7 @@
   background-color: #e4e3e3;
 }
 
-.login-form  input[type="submit"]:hover {
+.login-form input[type="submit"]:hover {
   cursor:pointer;
 }
 

@@ -14,3 +14,55 @@
 .fa-chevron-right {
   color: #D1D1D1;
 }
+
+@keyframes HideSplash {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-image: url("https://user-images.githubusercontent.com/43295067/91082735-0a3c0a80-e684-11ea-9df0-2673bb0aa73b.png");
+  font-family: 'Baloo Thambi 2', cursive;
+  animation: HideSplash 0.5s ease-out forwards;
+  animation-delay: 1.5s;
+}
+
+.splash__balloon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: -100px;
+  color: var(--yellow);
+}
+
+.splash__balloon img {
+  height: 230px;
+  width: 300px;
+}
+
+.splash__title {
+  position: absolute;
+  top: 85px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.splash__subtitle {
+  position: absolute;
+  top: 140px;
+  font-size: 16px;
+  font-weight: 400;
+}

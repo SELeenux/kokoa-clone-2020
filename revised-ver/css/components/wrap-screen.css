@@ -70,14 +70,15 @@
   flex-direction: column;
   position: absolute;
   text-align: center;
-  /* border: 1px solid var(--gray); */
 }
 
 .wrap__text h1 {
   font-size: 60px;
   font-weight: 900;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
   color: var(--yellow);
+  font-style: italic;
+  text-shadow: 1px 1px 1px rgba(190, 146, 0, 0.733);
 }
 
 .wrap__text h2 {

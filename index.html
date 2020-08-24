@@ -3,9 +3,15 @@
 
 <head>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;700;800&family=Noto+Sans:wght@400;700&display=swap');
+
+    body {
+      font-family: 'Baloo Tamma 2', cursive;
+    }
+
     .main-screen {
       margin-top: 100px;
-      padding: 0px 50px;
+      padding: 0px 30px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -18,7 +24,7 @@
     }
 
     .main-column h1 {
-      font-size: 50px;
+      font-size: 60px;
       margin: 0px;
       margin-bottom: 30px;
     }
@@ -34,6 +40,7 @@
     .main-screen .btns {
       display: flex;
       margin-top: 30px;
+      margin-left: 10px;
     }
 
     @keyframes btnGlow {
@@ -78,13 +85,15 @@
       font-size: 17px;
       padding: 10px;
       border-radius: 10px;
-      margin-right: 20px;
+      margin-right: 40px;
       color: #665c00;
       font-weight: 600;
+      box-shadow: 0px 0px 8px 8px rgba(250, 225, 0, 0.4);
     }
 
     .main-screen img {
       width: 500px;
+      padding-left: 160px;
     }
   </style>
   <meta charset="UTF-8">
@@ -96,8 +105,8 @@
   <div class="main-screen">
     <div class="main-column">
       <h1>Pick a version</h1>
-      <h2>Original: created along the course</h2>
-      <h2>Revised: Re-created version with little modifications</h2>
+      <h2>- Original: created along the course</h2>
+      <h2>- Revised: Re-created version with little modifications</h2>
       <div class="btns">
         <a href="original-ver/index.html"><input type="button" value="original ver" />
           <div class="btn-wrap"></div>
