@@ -10,6 +10,7 @@
 @import "components/user-component.css";
 @import "components/badge.css";
 @import "components/alt-header.css";
+@import "components/wrap-screen.css";
 
 /* screens */
 @import "screens/welcome.css";
@@ -24,6 +25,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
+  position: relative;
 }
 
 .main-screen {

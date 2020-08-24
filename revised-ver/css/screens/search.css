@@ -111,7 +111,9 @@
 }
 
 .news-list h3 {
-  padding: 5px 0px 20px 0px;
+  padding: 5px 0px 13px 0px;
+  margin-bottom: 7px;
+  border-bottom: var(--thin-border);
 }
 
 .news-list__photo {
