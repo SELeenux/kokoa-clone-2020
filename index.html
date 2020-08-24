@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    .main-screen {
+      margin-top: 100px;
+      padding: 0px 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .main-column {
+      margin-left: 30px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .main-column h1 {
+      font-size: 50px;
+      margin: 0px;
+      margin-bottom: 30px;
+    }
+
+    .main-column h2 {
+      font-size: 20px;
+      font-weight: 400;
+      margin: 0px;
+      margin-bottom: 10px;
+      color: gray;
+    }
+
+    .main-screen .btns {
+      display: flex;
+      margin-top: 30px;
+    }
+
+    @keyframes btnGlow {
+      0% {
+        transform: skew(-20deg);
+      }
+
+      50% {
+        transform: skew(-50deg) translateX(40vw) scaleX(3);
+      }
+
+      100% {
+        transform: translateX(100vw) scaleX(1);
+      }
+    }
+
+    .btns a {
+      display: block;
+      position: relative;
+    }
+
+    .btn-wrap {
+      width: 40px;
+      height: 50px;
+      background-color: white;
+      display: none;
+      position: absolute;
+      opacity: 0.5;
+      top: 0px;
+      transition: transform;
+    }
+
+    .btns a:hover .btn-wrap {
+      display: block;
+      animation: btnGlow 1s ease-out forwards;
+    }
+
+    .btns input {
+      background-color: #FAE100;
+      border: none;
+      width: 150px;
+      font-size: 17px;
+      padding: 10px;
+      border-radius: 10px;
+      margin-right: 20px;
+      color: #665c00;
+      font-weight: 600;
+    }
+
+    .main-screen img {
+      width: 500px;
+    }
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KokoaClone</title>
+</head>
+
+<body>
+  <div class="main-screen">
+    <div class="main-column">
+      <h1>Pick a version</h1>
+      <h2>Original: created along the course</h2>
+      <h2>Revised: Re-created version with little modifications</h2>
+      <div class="btns">
+        <a href="original-ver/index.html"><input type="button" value="original ver" />
+          <div class="btn-wrap"></div>
+        </a>
+        <a href="revised-ver/index.html"><input type="button" value="revised ver" />
+          <div class="btn-wrap"></div>
+        </a>
+      </div>
+    </div>
+    <div class="main-column">
+      <img src="https://cliply.co/wp-content/uploads/2020/03/392001500_EYES_EMOJI_400px.gif" />
+    </div>
+  </div>
+</body>
+
+</html>
