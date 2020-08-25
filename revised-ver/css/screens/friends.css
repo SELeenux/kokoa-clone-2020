@@ -1,5 +1,6 @@
 .friends-screen {
   margin-top: 4px;
+  overflow: hidden;
 }
 
 .friends-screen__group-title {

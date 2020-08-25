@@ -5,12 +5,13 @@
   position: fixed;
   box-sizing: border-box;
   padding: 0px 5px;
-  z-index: 2;
+  background-color: white;
+  z-index: -1;
 }
 
 .status-bar__column {
   width: 33.33%;
-  align-items: center;.status-bar
+  align-items: center;
 }
 
 .status-bar__column:first-child {
